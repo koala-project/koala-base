@@ -1,0 +1,4 @@
+com\koala\base\logics\member\KlGroupLogic.class
+com\koala\base\logics\member\KlUserLogicImpl.class
+com\koala\base\logics\member\KlGroupLogicImpl.class
+com\koala\base\logics\member\KlUserLogic.class

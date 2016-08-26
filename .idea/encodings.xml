@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/entities" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/entities/cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/entities/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/entities/member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logics/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logics/member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repositories" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repositories/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/repositories/member" charset="UTF-8" />
+  </component>
+</project>

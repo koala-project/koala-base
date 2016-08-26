@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/koala-base-entities.iml" filepath="$PROJECT_DIR$/koala-base-entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms/koala-base-entities-cms.iml" filepath="$PROJECT_DIR$/cms/koala-base-entities-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/koala-base-entities-common.iml" filepath="$PROJECT_DIR$/common/koala-base-entities-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member/koala-base-entities-member.iml" filepath="$PROJECT_DIR$/member/koala-base-entities-member.iml" />
+    </modules>
+  </component>
+</project>

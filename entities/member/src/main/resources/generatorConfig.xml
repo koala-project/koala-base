@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"/>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+        <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+            <property name="searchString" value="Example$" />
+            <property name="replaceString" value="Criteria" />
+        </plugin>
+        <!--⾃自定义插件⼀，⽤用来忽略⽣生成的实体中的某些字段-->
+        <plugin type="com.koala.utils.common.mybatis.IgnoreColumnsPlugin">
+            <!--需要忽略的字段，⽤用“,”分割-->
+            <property name="columns" value="id,sort,status,isDelete,creator,createTime,modifier,modifyTime,version" />
+            <!--当前实体需要继承的⽗父类，默认使⽤用当前值-->
+            <property name="superClass" value="com.koala.base.entities.common.DataEntity" />
+        </plugin>
+        <!--⾃自定义插件⼆，⽤用来⽣生成逻辑层代码-->
+        <plugin type="com.koala.utils.common.mybatis.LogicGeneratorPlugin">
+            <!--⽣生成的逻辑层代码放置的位置，只需要改动如下路径中的cms值即可⽣生成到不同模块-->
+            <!--如`../../logics/order/src/main/java`表⽰示⽣生成到order模块-->
+            <property name="target" value="../../logics/member/src/main/java" />
+            <!--⽣生成的逻辑层的包名，按需改动-->
+            <property name="packageName" value="com.koala.base.logics.member" />
+            <property name="primaryKeyClass" value="java.lang.Long" />
+        </plugin>
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://qdm107936212.my3w.com:3306/qdm107936212_db?characterEncoding=UTF-8"
+                        userId="qdm107936212"
+                        password="lhyyfn623">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.koala.base.entities.member" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+
+        <sqlMapGenerator targetPackage="com.koala.base.repositories.member"  targetProject="../../repositories/member/src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.koala.base.repositories.member"  targetProject="../../repositories/member/src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+
+        <!--<table tableName="kl_user" domainObjectName="KlUser" ></table>-->
+        <table tableName="kl_group" domainObjectName="KlGroup" ></table>
+
+
+    </context>
+</generatorConfiguration>

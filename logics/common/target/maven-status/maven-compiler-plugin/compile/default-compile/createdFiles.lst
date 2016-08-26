@@ -1,0 +1,4 @@
+com\koala\base\logics\common\SimpleAbstractCommonLogicImpl.class
+com\koala\base\logics\common\AbstractCommonLogicImpl.class
+com\koala\base\logics\common\CommonLogic.class
+com\koala\base\logics\common\SimpleCommonLogic.class

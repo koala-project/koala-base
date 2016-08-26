@@ -1,0 +1,8 @@
+com\koala\base\entities\common\BaseCriteria$InternelCriteria.class
+com\koala\base\entities\common\Criterion.class
+com\koala\base\entities\common\BaseEntity.class
+com\koala\base\entities\common\DataEntity.class
+com\koala\base\entities\common\BaseCriteria$BaseGeneratedCriteria.class
+com\koala\base\entities\common\BaseCriteria.class
+com\koala\base\entities\common\IdEntity.class
+com\koala\base\entities\common\SimpleDataEntity.class
