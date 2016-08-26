@@ -5,13 +5,20 @@
       <module fileurl="file://$PROJECT_DIR$/koala-base.iml" filepath="$PROJECT_DIR$/koala-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/entities/koala-base-entities.iml" filepath="$PROJECT_DIR$/entities/koala-base-entities.iml" />
       <module fileurl="file://$PROJECT_DIR$/entities/cms/koala-base-entities-cms.iml" filepath="$PROJECT_DIR$/entities/cms/koala-base-entities-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entities/cms/koala-base-entities-cms.iml" filepath="$PROJECT_DIR$/entities/cms/koala-base-entities-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/entities/common/koala-base-entities-common.iml" filepath="$PROJECT_DIR$/entities/common/koala-base-entities-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entities/common/koala-base-entities-common.iml" filepath="$PROJECT_DIR$/entities/common/koala-base-entities-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entities/member/koala-base-entities-member.iml" filepath="$PROJECT_DIR$/entities/member/koala-base-entities-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/entities/member/koala-base-entities-member.iml" filepath="$PROJECT_DIR$/entities/member/koala-base-entities-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/logics/koala-base-logics.iml" filepath="$PROJECT_DIR$/logics/koala-base-logics.iml" />
       <module fileurl="file://$PROJECT_DIR$/logics/common/koala-base-logics-common.iml" filepath="$PROJECT_DIR$/logics/common/koala-base-logics-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logics/common/koala-base-logics-common.iml" filepath="$PROJECT_DIR$/logics/common/koala-base-logics-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logics/member/koala-base-logics-member.iml" filepath="$PROJECT_DIR$/logics/member/koala-base-logics-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/logics/member/koala-base-logics-member.iml" filepath="$PROJECT_DIR$/logics/member/koala-base-logics-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/repositories/koala-base-repositories.iml" filepath="$PROJECT_DIR$/repositories/koala-base-repositories.iml" />
       <module fileurl="file://$PROJECT_DIR$/repositories/common/koala-base-repositories-common.iml" filepath="$PROJECT_DIR$/repositories/common/koala-base-repositories-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repositories/common/koala-base-repositories-common.iml" filepath="$PROJECT_DIR$/repositories/common/koala-base-repositories-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repositories/member/koala-base-repositories-member.iml" filepath="$PROJECT_DIR$/repositories/member/koala-base-repositories-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/repositories/member/koala-base-repositories-member.iml" filepath="$PROJECT_DIR$/repositories/member/koala-base-repositories-member.iml" />
     </modules>
   </component>

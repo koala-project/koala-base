@@ -25,9 +25,11 @@
         <processorPath useClasspath="true" />
         <module name="koala-base-entities-cms" />
         <module name="koala-base-entities-common" />
+        <module name="koala-base-entities-member" />
         <module name="koala-base-entities-member (1)" />
         <module name="koala-base-entities-member (2)" />
         <module name="koala-base-logics-common" />
+        <module name="koala-base-logics-member" />
         <module name="koala-base-repositories-common" />
         <module name="koala-base-repositories-member" />
       </profile>
@@ -37,10 +39,12 @@
       <module name="koala-base-entities" target="1.8" />
       <module name="koala-base-entities-cms" target="1.8" />
       <module name="koala-base-entities-common" target="1.8" />
+      <module name="koala-base-entities-member" target="1.8" />
       <module name="koala-base-entities-member (1)" target="1.8" />
       <module name="koala-base-entities-member (2)" target="1.8" />
       <module name="koala-base-logics" target="1.8" />
       <module name="koala-base-logics-common" target="1.8" />
+      <module name="koala-base-logics-member" target="1.8" />
       <module name="koala-base-repositories" target="1.8" />
       <module name="koala-base-repositories-common" target="1.8" />
       <module name="koala-base-repositories-member" target="1.8" />
