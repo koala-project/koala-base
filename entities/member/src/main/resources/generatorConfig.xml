@@ -19,6 +19,7 @@
             <property name="columns" value="id,sort,status,isDelete,creator,createTime,modifier,modifyTime,version" />
             <!--当前实体需要继承的⽗父类，默认使⽤用当前值-->
             <property name="superClass" value="com.koala.base.entities.common.DataEntity" />
+            <property name="primaryKeyClass" value="java.lang.Long" />
         </plugin>
         <!--⾃自定义插件⼆，⽤用来⽣生成逻辑层代码-->
         <plugin type="com.koala.utils.common.mybatis.LogicGeneratorPlugin">

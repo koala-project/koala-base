@@ -4,6 +4,8 @@ import com.koala.base.entities.member.KlUser;
 import com.koala.base.logics.common.AbstractCommonLogicImpl;
 import com.koala.base.repositories.member.KlUserMapper;
 import javax.annotation.Resource;
+
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -14,5 +16,11 @@ public class KlUserLogicImpl extends AbstractCommonLogicImpl<KlUserMapper, KlUse
 
     protected KlUserMapper getMapper() {
         return klUserMapper;
+    }
+
+    @Override
+    @Cacheable(value = "userCache", key = "'userCache'+id")
+    public KlUser findById(Long id) {
+        return get(id);
     }
 }
