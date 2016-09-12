@@ -60,8 +60,8 @@
         </javaClientGenerator>
 
 
-        <!--<table tableName="kl_user" domainObjectName="KlUser" ></table>-->
-        <table tableName="kl_group" domainObjectName="KlGroup" ></table>
+        <table tableName="kl_user" domainObjectName="KlUser" ></table>
+        <!--<table tableName="kl_group" domainObjectName="KlGroup" ></table>-->
 
 
     </context>

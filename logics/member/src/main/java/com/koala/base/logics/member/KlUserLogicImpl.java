@@ -19,7 +19,7 @@ public class KlUserLogicImpl extends AbstractCommonLogicImpl<KlUserMapper, KlUse
     }
 
     @Override
-    @Cacheable(value = "userCache", key = "'userCache'+id")
+    @Cacheable(value = "klUser", key = "'klUser'+#id")
     public KlUser findById(Long id) {
         return get(id);
     }
