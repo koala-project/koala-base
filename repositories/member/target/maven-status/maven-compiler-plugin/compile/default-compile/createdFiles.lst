@@ -1,2 +1,8 @@
-com\koala\base\repositories\member\KlGroupMapper.class
+com\koala\base\repositories\member\SysDepartmentMapper.class
+com\koala\base\repositories\member\SysRoleMapper.class
 com\koala\base\repositories\member\KlUserMapper.class
+com\koala\base\repositories\member\SysPermMapper.class
+com\koala\base\repositories\member\KlGroupMapper.class
+com\koala\base\repositories\member\RelUserRoleMapper.class
+com\koala\base\repositories\member\SysUserMapper.class
+com\koala\base\repositories\member\RelRolePermMapper.class

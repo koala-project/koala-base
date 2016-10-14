@@ -19,6 +19,7 @@
             <property name="columns" value="id,sort,status,isDelete,creator,createTime,modifier,modifyTime,version" />
             <!--当前实体需要继承的⽗父类，默认使⽤用当前值-->
             <property name="superClass" value="com.koala.base.entities.common.DataEntity" />
+            <property name="primaryKeyClass" value="java.lang.Long" />
         </plugin>
         <!--⾃自定义插件⼆，⽤用来⽣生成逻辑层代码-->
         <plugin type="com.koala.utils.common.mybatis.LogicGeneratorPlugin">
@@ -59,8 +60,14 @@
         </javaClientGenerator>
 
 
+        <!--<table tableName="rel_role_perm" domainObjectName="RelRolePerm" ></table>-->
+        <!--<table tableName="rel_user_role" domainObjectName="RelUserRole" ></table>-->
+        <!--<table tableName="sys_department" domainObjectName="SysDepartment" ></table>-->
+        <!--<table tableName="sys_perm" domainObjectName="SysPerm" ></table>-->
+        <!--<table tableName="sys_role" domainObjectName="SysRole" ></table>-->
+        <!--<table tableName="sys_user" domainObjectName="SysUser" ></table>-->
+        <!--<table tableName="kl_group" domainObjectName="KlGroup" ></table>-->
         <!--<table tableName="kl_user" domainObjectName="KlUser" ></table>-->
-        <table tableName="kl_group" domainObjectName="KlGroup" ></table>
 
 
     </context>

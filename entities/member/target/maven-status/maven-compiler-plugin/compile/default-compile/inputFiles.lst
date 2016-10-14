@@ -1,4 +1,16 @@
-D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\KlUserCriteria.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysUser.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysPerm.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\RelRolePermCriteria.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\RelUserRoleCriteria.java
 D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\KlUser.java
 D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\KlGroup.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysDepartment.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\KlUserCriteria.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\RelUserRole.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysUserCriteria.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysRoleCriteria.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysRole.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysDepartmentCriteria.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\RelRolePerm.java
+D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\SysPermCriteria.java
 D:\workspace\workSpaceF3\koala-base\entities\member\src\main\java\com\koala\base\entities\member\KlGroupCriteria.java
